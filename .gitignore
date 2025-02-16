@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__
+
+# Outputs
+radical-anki-cards.txt
+index.html
