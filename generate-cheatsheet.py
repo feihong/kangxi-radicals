@@ -7,6 +7,7 @@ prefix = """\
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Kangxi Radicals 中文部首</title>
   <style>
@@ -33,6 +34,7 @@ prefix = """\
 </head>
 <body>
   <h1>Kangxi Radicals 中文部首</h1>
+  <p><a href="radical-anki-cards.txt">Download Anki cards</a></p>
   <table>
     <thead>
       <th>Radical</th>

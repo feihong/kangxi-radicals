@@ -13,7 +13,7 @@
 犭 dog
 比 compare
 日 sun
-月 moon
+月 moon or meat
 工 work
 广 shelter
 女 woman
@@ -33,7 +33,7 @@
 己 oneself
 弓 bow
 彐 snout
-手 hand
+扌 hand
 木 wood
 一 one
 几 table
@@ -131,7 +131,6 @@
 冖 cover
 厶 private
 牛 cow
-肉 meat
 豆 bean
 青 blue
 风 wind
@@ -156,7 +155,7 @@
 骨 bone
 屮 sprout
 廴 stride
-攵 rap
+攵 tap
 氏 clan
 癶 foot steps
 矛 spear
@@ -182,7 +181,6 @@
 匕 ladle
 士 scholar
 夊 go slowly
-攴 rap
 网 net
 行 walk
 阝 mound
