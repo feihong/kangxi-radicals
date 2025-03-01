@@ -1,5 +1,5 @@
 cards:
   python generate-anki-cards.py
 
-cheatsheet:
+sheet:
   python generate-cheatsheet.py

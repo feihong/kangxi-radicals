@@ -7,7 +7,8 @@ output_file = Path('radical-anki-cards.txt')
 with output_file.open('w') as fp:
     fp.write("""#separator:tab
 #html:true
-#tags column:3
+#notetype column: 1
+#tags column:2
 """)
-    for char, meaning in utils.get_cards():
-        fp.write(f'<span style="font-size: 32px">{{{{c1::{char}}}}}</span> is the radical for {{{{c2::{meaning}}}}}\t\tradical\n')
+    for _number, char, _strokes, meaning in utils.get_cards(only_important=True):
+        fp.write(f'cloze\tradical\t<span style="font-size: 40px">{{{{c1::{char}}}}}</span> is the radical for {{{{c2::{meaning}}}}}\t\t\n')

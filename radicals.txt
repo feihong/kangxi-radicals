@@ -1,186 +1,213 @@
-页 page
-方 square
-又 again
-力 power
-土 earth
-忄 heart
-文 script
-耳 ear
-皮 skin
-饣 eat
-覀 west
-米 rice
-犭 dog
-比 compare
-日 sun
-月 moon or meat
-工 work
-广 shelter
-女 woman
-子 child
-彳 step
-户 door
-母 mother
-气 steam
-片 slice
-瓜 melon
-生 life
-亻 person
-冫 ice
-勹 wrap
-夂 go
-夕 night
-己 oneself
-弓 bow
-彐 snout
-扌 hand
-木 wood
-一 one
-几 table
-口 mouth
-大 big
-寸 inch
-干 dry
-戈 spear
-斤 axe
-歹 death
-氵 water
-十 ten
-宀 roof
-小 small
-川 river
-幺 thread
-廾 hands joined
-欠 lack
-牙 tooth (4 stroke)
-用 use
-目 eye
-巾 towel
-殳 weapon
-毛 fur
-爫 claw
-灬 fire
-瓦 tile
-甘 sweet
-田 field
-白 white
-皿 dish
-矢 arrow
-石 stone
-禾 grain
-立 stand
-纟 silk
-老 old
-至 arrive
-舌 tongue
-色 color
-艹 grass
-尢 lame
-尸 corpse
-山 mountain (3 stroke)
-彡 hair
-止 stop
-父 father
-玉 jade
-疋 cloth
-穴 cave
-羽 feather
-亅 hook
-入 enter
-刂 knife
-疒 ill
-羊 sheep
-自 oneself
-舟 boat
-虫 insect
-见 see
-讠 speech
-亠 lid
-凵 open box
-囗(bigger) enclosure
-弋 shoot with a bow
-无 not
- 礻 spirit
-竹 bamboo
-而 and
-艮 mountain (6 stroke)
-门 gate
-虍 tiger
-血 blood
-衤 clothes
-谷 valley
-豕 pig
-贝 shell
-走 walk (7 stroke)
-足 foot
-辛 bitter
-辶 walk (2 stroke)
-丨 line
-丶 dot
-丿 slash
-冂 down box
-车 cart
-钅 metal
-长 long
-雨 rain
-非 wrong
-马 horse
-乙 second
-二 two
-八 eight
-冖 cover
-厶 private
-牛 cow
-豆 bean
-青 blue
-风 wind
-卩 seal
-支 branch
-斗 dipper
-玄 profound
-禸 track
-身 body
-釆 distinguish
-里 village
-音 sound
-飞 fly
-匚 right open box
-匸 hiding enclosure
-卜 divination
-厂 cliff
-隹 short-tailed bird
-面 face
-首 head
-香 fragrant
-骨 bone
-屮 sprout
-廴 stride
-攵 tap
-氏 clan
-癶 foot steps
-矛 spear
-缶 jar
-聿 brush
-臣 minister
-臼 mortar
-角 horn
-赤 red
-辰 morning
-酉 wine
-韦 soft leather
-高 high
-鬼 ghost
-鱼 fish
-鸟 bird
-卤 salty
-齐 even
-齿 tooth (8 stroke)
-龙 dragon
-亻 person
-儿 legs
-匕 ladle
-士 scholar
-夊 go slowly
-网 net
-行 walk
-阝 mound
+1; 一; 1; one
+2; 丨; 1; line
+3; 丶; 1; dot
+4; 丿; 1; slash
+5; 乙; 1; second
+6; 亅; 1; hook
+7; 二; 2; two
+8; 亠; 2; lid
+9; 亻; 2; person
+10; 儿; 2; legs
+11; 入; 2; enter
+12; 八; 2; eight
+13; 冂; 2; down box
+14; 冖; 2; cover
+15; 冫; 2; ice
+16; 几; 2; table
+17; 凵; 2; open box
+18; 刂; 2; knife
+19; 力; 2; power
+20; 勹; 2; wrap
+21; 匕; 2; spoon
+22; 匚; 2; right open box
+23; 匸; 2; hiding enclosure
+24; 十; 2; ten
+25; 卜; 2; divination
+26; 卩; 2; seal
+27; 厂; 2; cliff
+28; 厶; 2; private
+29; 又; 2; again
+30; |口|; 3; mouth
+31; |囗|; 3; enclosure
+32; 土; 3; earth
+33; 士; 3; scholar
+34; 夂; 3; go
+35; 夊; 3; go slowly
+36; 夕; 3; evening
+37; 大; 3; big
+38; 女; 3; woman
+39; 子; 3; child
+40; 宀; 3; roof
+41; 寸; 3; inch
+42; 小; 3; small
+43; 尢; 3; lame
+44; 尸; 3; corpse
+45; 屮; 3; sprout
+46; 山; 3; mountain
+47; 川; 3; river
+48; 工; 3; work
+49; 己; 3; oneself
+50; 巾; 3; turban
+51; 干; 3; dry
+52; 幺; 3; thread
+53; 广; 3; shelter
+54; 廴; 3; stride
+55; 廾; 3; arch
+56; 弋; 3; shoot
+57; 弓; 3; bow
+58; 彐; 3; snout
+59; 彡; 3; bristle
+60; 彳; 3; step
+61; 忄; 4; heart
+62; 戈; 4; halberd
+63; 户; 4; door
+64; 扌; 4; hand
+65; 支; 4; branch
+66; 攵; 4; tap
+67; 文; 4; script
+68; 斗; 4; dipper
+69; 斤; 4; axe
+70; 方; 4; square
+71; 无; 4; not
+72; 日; 4; sun
+73; 曰; 4; say
+74, 130; 月; 4; moon or meat
+75; 木; 4; tree
+76; 欠; 4; lack
+77; 止; 4; stop
+78; 歹; 4; death
+79; 殳; 4; weapon
+80; 母; 4; mother
+81; 比; 4; compare
+82; 毛; 4; fur
+83; 氏; 4; clan
+84; 气; 4; steam
+85; 氵; 4; water
+86; 灬; 4; fire
+87; 爫; 4; claw
+88; 父; 4; father
+#89; 爻; 4; trigrams
+#90; 爿(丬); 4; split wood
+91; 片; 4; slice
+92; 牙; 4; fang
+93; 牜; 4; cow
+94; 犭; 4; dog
+95; 玄; 5; profound
+96; 王; 5; jade
+97; 瓜; 5; melon
+98; 瓦; 5; tile
+99; 甘; 5; sweet
+100; 生; 5; life
+101; 用; 5; use
+102; 田; 5; field
+#103; 疋(⺪); 5; bolt of cloth
+104; 疒; 5; sickness
+#105; 癶; 5; footsteps
+106; 白; 5; white
+107; 皮; 5; skin
+108; 皿; 5; dish
+109; 目; 5; eye
+110; 矛; 5; spear
+111; 矢; 5; arrow
+112; 石; 5; stone
+113; 礻; 5; spirit
+114; 禸; 5; track
+115; 禾; 5; grain
+116; 穴; 5; cave
+117; 立; 5; stand
+118; ⺮; 6; bamboo
+119; 米; 6; rice
+120; 纟; 6; silk
+121; 缶; 6; jar
+122; ⺲; 6; net
+123; 羊; 6; sheep
+124; 羽; 6; feather
+#125; 老(耂); 6; old
+#126; 而; 6; and
+#127; 耒; 6; plough
+128; 耳; 6; ear
+129; 聿; 6; brush
+131; 臣; 6; minister
+132; 自; 6; self
+133; 至; 6; arrive
+134; 臼; 6; mortar
+135; 舌; 6; tongue
+#136; 舛; 6; oppose
+137; 舟; 6; boat
+138; 艮; 6; stopping
+139; 色; 6; color
+140; ⺿; 6; grass
+141; 虍; 6; tiger
+142; 虫; 6; insect
+143; 血; 6; blood
+144; 行; 6; walk enclosure
+145; ⻂; 6; clothes
+#146; 襾(西、覀); 6; cover
+147; 见; 7; see
+148; 角; 7; horn
+149; 讠; 7; speech
+150; 谷; 7; valley
+151; 豆; 7; bean
+152; 豕; 7; pig
+#153; 豸; 7; badger
+154; 贝; 7; shell
+155; 赤; 7; red
+156; 走; 7; run
+157; ⻊; 7; foot
+158; 身; 7; body
+159; 车; 7; cart
+160; 辛; 7; bitter
+161; 辰; 7; morning
+162; 辶; 7; walk
+163; |⻏|; 7; city
+164; 酉; 7; wine
+165; 釆; 7; distinguish
+166; 里; 7; village
+167; 钅; 8; gold
+168; 长; 8; long
+169; 门; 8; gate
+170; |⻖|; 8; mound
+#171; 隶; 8; slave
+172; 隹; 8; short-tailed bird
+173; 雨; 8; rain
+174; 青; 8; blue
+175; 非; 8; wrong
+176; 面; 9; face
+177; 革; 9; leather
+178; 韦; 9; tanned leather
+#179; 韭; 9; leek
+180; 音; 9; sound
+181; 页; 9; page
+182; 风; 9; wind
+183; 飞; 9; fly
+184; 饣; 9; eat
+185; 首; 9; head
+186; 香; 9; fragrant
+187; 马; 10; horse
+188; 骨; 10; bone
+189; 高; 10; tall
+#190; 髟; 10; hair
+#191; 鬥; 10; fight
+#192; 鬯; 10; sacrificial wine
+#193; 鬲; 10; cauldron
+194; 鬼; 10; ghost
+195; 鱼; 11; fish
+196; 鸟; 11; bird
+197; 卤; 11; salt
+#198; 鹿; 11; deer
+#199; 麦; 11; wheat
+200; 麻; 11; hemp
+201; 黄; 12; yellow
+#202; 黍; 12; millet
+203; 黑; 12; black
+#204; 黹; 12; embroidery
+#205; 黾; 13; frog
+#206; 鼎; 13; tripod
+#207; 鼓; 13; drum
+#208; 鼠; 13; rat
+#209; 鼻; 14; nose
+#210; 齐; 14; even
+211; 齿; 15; tooth
+212; 龙; 16; dragon
+213; 龟; 16; turtle
+#214; 龠; 17; flute

@@ -29,6 +29,16 @@ prefix = """\
   td.char {
     font-size: 3em;
     padding: 0;
+    position: relative;
+    font-family: monospace;
+  }
+  .number {
+    font-size: 0.3em;
+    color: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0.2em;
   }
   </style>
 </head>
@@ -38,6 +48,7 @@ prefix = """\
   <table>
     <thead>
       <th>Radical</th>
+      <th># Strokes</th>
       <th>Meaning</th>
     </thead>
     <tbody>
@@ -50,9 +61,14 @@ suffix = """\
 """
 
 def get_rows():
-  for char, meaning in utils.get_cards():
+  for numbers, char, strokes, meaning in utils.get_cards(only_important=False):
+    numbers_links = ', '.join(f'<a target="_blank" href="https://en.wikipedia.org/wiki/Radical_{n}">{n}</a>' for n in numbers)
     yield f"""<tr>
-      <td class="char">{char}</td>
+      <td class="char">
+        <div class="number">{numbers_links}</div>
+        {char}
+      </td>
+      <td>{strokes}</td>
       <td>{meaning}</td>
     </tr>"""
 
