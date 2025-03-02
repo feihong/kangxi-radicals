@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 import utils
 
@@ -32,6 +33,9 @@ prefix = """\
     position: relative;
     font-family: monospace;
   }
+  .char-border {
+    border: 1px dashed gray;
+  }
   .number {
     font-size: 0.3em;
     color: gray;
@@ -62,11 +66,17 @@ suffix = """\
 
 def get_rows():
   for numbers, char, strokes, meaning in utils.get_cards(only_important=False):
+    if m := re.match(r'\|(.*)\|', char):
+      char = m.group(1)
+      border_class = 'char-border'
+    else:
+      border_class = ''
+
     numbers_links = ', '.join(f'<a target="_blank" href="https://en.wikipedia.org/wiki/Radical_{n}">{n}</a>' for n in numbers)
     yield f"""<tr>
       <td class="char">
         <div class="number">{numbers_links}</div>
-        {char}
+        <span class="{border_class}">{char}</span>
       </td>
       <td>{strokes}</td>
       <td>{meaning}</td>
