@@ -52,7 +52,7 @@
 52; 幺; 3; thread
 53; 广; 3; shelter
 54; 廴; 3; stride
-55; 廾; 3; arch
+55; 廾; 3; two hands
 56; 弋; 3; shoot
 57; 弓; 3; bow
 58; 彐; 3; snout
@@ -169,7 +169,7 @@
 170; |⻖|; 8; mound
 #171; 隶; 8; slave
 172; 隹; 8; short-tailed bird
-173; 雨; 8; rain
+173; ⻗; 8; rain
 174; 青; 8; blue
 175; 非; 8; wrong
 176; 面; 9; face
