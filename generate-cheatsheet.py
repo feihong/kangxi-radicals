@@ -21,6 +21,7 @@ prefix = """\
   }
   table {
     border-collapse: collapse;
+    width: 100%;
   }
   td {
     border: 1px solid gray;
@@ -49,17 +50,37 @@ prefix = """\
 <body>
   <h1>Kangxi Radicals 中文部首</h1>
   <p><a href="radical-anki-cards.txt">Download Anki cards</a></p>
+  <div>Search: <input autocapitalize="off" oninput="filter(this.value)"></div>
   <table>
     <thead>
-      <th>Radical</th>
-      <th># Strokes</th>
-      <th>Meaning</th>
+      <tr>
+        <th>Radical</th>
+        <th># Strokes</th>
+        <th>Meaning</th>
+      </tr>
     </thead>
     <tbody>
 """
 
 suffix = """\
 </tbody>
+<script>
+function filter(text) {
+  text = text.trim().toLowerCase()
+  if (text === '') {
+    setRowVisibility(_ => true)
+  } else {
+    setRowVisibility(meaning => meaning.includes(text))
+  }
+}
+function setRowVisibility(pred) {
+  const rows = [...document.querySelectorAll('tr')].slice(1)
+  for (const row of rows) {
+    const meaning = row.querySelector('.meaning').textContent
+    row.style.display = pred(meaning) ? '' : 'none'
+  }
+}
+</script>
 </body>
 </html>
 """
@@ -79,7 +100,7 @@ def get_rows():
         <span class="{border_class}">{char}</span>
       </td>
       <td>{strokes}</td>
-      <td>{meaning}</td>
+      <td class="meaning">{meaning}</td>
     </tr>"""
 
 with out_file.open('w') as fp:

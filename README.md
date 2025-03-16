@@ -13,3 +13,7 @@ The `radical-anki-cards.txt` file it generates can be directly imported into Ank
 Generate cheatsheet:
 
     just cheatsheet
+
+Publish to GitHub Pages
+
+    just publish
